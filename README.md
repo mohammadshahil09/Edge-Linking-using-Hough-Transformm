@@ -32,8 +32,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-gray = cv2.imread('beaut.jpg', cv2.IMREAD_GRAYSCALE)
-img_color = cv2.imread('beaut.jpg', cv2.IMREAD_COLOR)
+gray = cv2.imread('mohammed.jpg', cv2.IMREAD_GRAYSCALE)
+img_color = cv2.imread('mohammed.jpg', cv2.IMREAD_COLOR)
 img_c = cv2.cvtColor(img_color, cv2.COLOR_BGR2RGB)
 gray_rgb = cv2.cvtColor(gray, cv2.COLOR_GRAY2RGB)
 
@@ -49,6 +49,8 @@ plt.imshow(gray_rgb, cmap='gray')
 plt.title("Gray Image")
 plt.axis("off")
 plt.show()
+
+
 ```
 ### Canny Edge detector output
 ```
@@ -75,13 +77,15 @@ plt.show()
 ## Output:
 
 ### Input image and grayscale image
-<img width="1259" height="418" alt="image" src="https://github.com/user-attachments/assets/6046e875-b80e-496b-873e-1c96ef3d3983" />
+![WhatsApp Image 2025-11-03 at 11 41 39_f1cc274a](https://github.com/user-attachments/assets/55c3d0bc-f00b-4c14-807b-01fb1cfa3fcf)
+
 
 ### Canny Edge detector output
-<img width="669" height="460" alt="image" src="https://github.com/user-attachments/assets/d20c06f3-5dcd-4e5c-86ef-3eecb1da2d82" />
+![WhatsApp Image 2025-11-03 at 11 41 55_b116e91b](https://github.com/user-attachments/assets/825c06c3-5476-4701-87c2-17d513a2fc2c)
 
 ### Display the result of Hough transform
-<img width="685" height="459" alt="image" src="https://github.com/user-attachments/assets/e07510e6-e29e-4fa2-b4d1-0d6c33bbae02" />
+![WhatsApp Image 2025-11-03 at 11 42 03_9d4a2301](https://github.com/user-attachments/assets/15951677-1b93-46f3-865e-140f2332d704)
+
 
 ## Result:
 Thus, the image has been successfully converted.
